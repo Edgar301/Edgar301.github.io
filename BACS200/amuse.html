@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button{
+ display: inline-block;
+ padding: 10px 91px;
+ text-align: center;
+ text-decoration: none;
+ color: white;
+ background-color: black;
+ border-radius: 0px;
+ outline: none;
+}
+    
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1> Amusement Page</h1>
+</div>
+
+<h2 style="text-align:center">Top 3 Amusement Internet Pages</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6a029dd2-ec95-4e7f-8f81-ce0c284c830e-profile_image-300x300.png" style="width:50%" class="center">
+      <div class="container">
+        <h2 style="text-align:center">Amusement #1</h2>
+        <p style="text-align:center">Halo Video Game </p>
+        <p>I am a big fan of competative gaming and I spend a lot of time on the halo website. Here I can read lore and catch up on the latest development updates</p>
+       
+         <a class="button" href="https://www.halowaypoint.com/en-us"> Halo Website </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&amp;s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" alt="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&amp;s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" style="width:50%" class="center">
+      <div class="container">
+        <h2 style="text-align:center">Amusement #2</h2>
+        <p style="text-align:center">Reddit Social Media Website  </p>
+        <p>My next ammusement website is reddit. This website has everything. You can find almost anything on reddit and its fun to scroll through from time to time.</p>
+       
+        <a class="button" href="https://www.reddit.com/r/technology/"> Reddit Website </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://forums.space.com/data/avatars/h/1110/1110746.jpg" alt="https://forums.space.com/data/avatars/h/1110/1110746.jpg" class="center" style="width:50%">
+      <div class="container">
+         <h2 style="text-align:center">Amusement #3</h2>
+        <p style="text-align:center">Space and News Website </p>
+        <p>Astronomy is a hobby that I just recently got into and as I was browsing the web I found this site. Its great for keeping up with all things related to space. </p>
+      
+        <a class="button" href="https://www.space.com/"> Space.com Website </a>
+      </div>
+    </div>
+  </div>
+</div>
+ <a class="button" href="https://edgar301.github.io/BACS200/index.html"> Home Page </a>
+</body>
+</html>
