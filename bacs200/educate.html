@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button{
+ display: inline-block;
+ padding: 10px 91px;
+ text-align: center;
+ text-decoration: none;
+ color: white;
+ background-color: black;
+ border-radius: 0px;
+ outline: none;
+}
+    
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Educate and Entertain</h1>
+</div>
+
+<h2 style="text-align:center">TED Talks</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+        <iframe width="605" height="350" src="https://www.youtube.com/embed/vHzxhqquq7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <!-- <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6a029dd2-ec95-4e7f-8f81-ce0c284c830e-profile_image-300x300.png" style="width:50%" class="center"> -->
+      <div class="container">
+          <h2 style="text-align:center"><ins>The Future Of Humanity With Dr. Michio Kaku</ins></h2>
+          <p style="text-align:center"><b>Speaker: Dr. Michio Kaku </b></p>
+          <p style="text-align:left"><ins><b>Description:</b></ins></p>  
+        <p>World-renowned physicist and futurist Michio Kaku explores in rich, intimate detail the process by which humanity may gradually move away from the planet and develop a sustainable civilisation in outer space.</p>
+       
+         <!-- <a class="button" href="https://www.halowaypoint.com/en-us"> Halo Website </a> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&amp;s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" alt="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&amp;s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" style="width:50%" class="center"> -->
+      <iframe width="605" height="350" src="https://www.youtube.com/embed/zIwLWfaAg-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+      <div class="container">
+        <h2 style="text-align:center"><ins>The future we're building | Elon Musk</ins></h2>
+         <p style="text-align:center"><b>Speakers: Elon Musk and Chris Anderson</b></p>
+        <p style="text-align:left"><ins><b>Description:</b></ins></p>
+        <p>Elon Musk discusses his new project digging tunnels under LA, the latest from Tesla and SpaceX and his motivation for building a future on Mars in conversation with TED's Head Curator, Chris Anderson.</p>
+       
+        <!-- <a class="button" href="https://www.reddit.com/r/technology/"> Reddit Website </a> -->
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <!--<img src="https://forums.space.com/data/avatars/h/1110/1110746.jpg" alt="https://forums.space.com/data/avatars/h/1110/1110746.jpg" class="center" style="width:50%"> -->
+    <iframe width="605" height="350" src="https://www.youtube.com/embed/88d-58tWhGs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container">
+         <h2 style="text-align:center"><ins>The Most Detailed Map of Galaxies</ins></h2>
+         <p style="text-align:center"><b>Speaker:Juna Kollmeier</b></p>
+        <p style="text-align:left"><ins><b>Description:</b></ins></p>
+        <p>Humans have been studying the stars for thousands of years, but astrophysicist Juna Kollmeier is on a special mission: creating the most detailed maps of the universe. </p>  
+      
+       <!-- <a class="button" href="https://www.space.com/"> Space.com Website </a> -->
+      </div>
+    </div>
+  </div>
+</div>
+    
+<hr>
+ <h2 style="text-align:center">RSA Animate</h2>
+    <div class="column">
+        
+    <div class="card">
+      <!--<img src="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&amp;s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" alt="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?auto=webp&amp;s=38648ef0dc2c3fce76d5e1d8639234d8da0152b2" style="width:50%" class="center"> -->
+      <iframe width="605" height="350" src="https://www.youtube.com/embed/nJmGrNdJ5Gw?list=PL39BF9545D740ECFF" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+      <div class="container">
+        <h2 style="text-align:center"><ins>RSA ANIMATE: The Power of Networks</ins></h2>
+         <p style="text-align:center"><b>Speakers:Manuel Lima</b></p>
+        <p style="text-align:left"><ins><b>Description:</b></ins></p>
+        <p>In this new RSA Animate, the speaker explores the power of network visualisation to help navigate our complex modern world.</p>
+       
+        <!-- <a class="button" href="https://www.reddit.com/r/technology/"> Reddit Website </a> -->
+      </div>
+    </div>
+  </div>
+     <div class="column">
+    <div class="card">
+      <!--<img src="https://forums.space.com/data/avatars/h/1110/1110746.jpg" alt="https://forums.space.com/data/avatars/h/1110/1110746.jpg" class="center" style="width:50%"> -->
+    <iframe width="605" height="350" src="https://www.youtube.com/embed/3-son3EJTrU?list=PL39BF9545D740ECFF" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container">
+         <h2 style="text-align:center"><ins>RSA ANIMATE: Language as a Window into Human Nature</ins></h2>
+         <p style="text-align:center"><b>Speaker:Steven Pinker</b></p>
+        <p style="text-align:left"><ins><b>Description:</b></ins></p>
+        <p>The speaker shows us how the mind turns the finite building blocks of language into infinite meanings, click the video to find out more.</p>  
+      
+       <!-- <a class="button" href="https://www.space.com/"> Space.com Website </a> -->
+      </div>
+    </div>
+  </div>
+    
+    
+    
+    
+    
+ <a class="button" href="https://edgar301.github.io/bacs200/index.html"> Home Page </a>
+</body>
+</html>
